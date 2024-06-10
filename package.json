@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test:laptop:chrome:headed": "cypress run --browser chrome --headed --config-file cypress.laptop.config.js",
+    "test:laptop:chrome:headless": "cypress run --browser chrome --headless --config-file cypress.laptop.config.js",
+    "test:mobile:electron:headed": "cypress run --browser electron --headed --config-file cypress.mobile.config.js",
+    "test:mobile:electron:headless": "cypress run --browser electron --headless --config-file cypress.mobile.config.js"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",

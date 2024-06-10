@@ -12,4 +12,4 @@ module.exports = defineConfig({
   },
 });
 
-// Для запуска с данной конфигурацией необходимо использовать команду npx cypress open --config-file cypress.desktop.config.js
+// Для запуска с данной конфигурацией необходимо использовать команду npx cypress open --config-file cypress.laptop.config.js
